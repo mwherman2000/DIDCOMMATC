@@ -1,0 +1,4 @@
+﻿cell struct FlightPlan_Cell
+{
+    FlightPlan airportInfo;
+}

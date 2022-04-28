@@ -1,0 +1,30 @@
+﻿ 
+struct FlightPlan
+{
+    string Ident;
+    string AircraftType;
+    string Origin;
+    string Destination;
+    string Departure;
+    string EstimatedArrival;
+
+    string OriginId;
+    string OriginName;
+    string DestinationId;
+    string DestinationName;
+    string AircraftId;
+    DateTime DepartureTime;
+    DateTime EstimatedArrivalTime;
+    DateTime StartBoarding;
+    DateTime BoardingComplete;
+    DateTime StartTaxiOut;
+    DateTime TaxiOutComplete;
+    DateTime StartTakeOff;
+    DateTime TakeoffComplete;
+    DateTime StartLanding;
+    DateTime LandingComplete;
+    DateTime StartTaxiIn;
+    DateTime TaxiInComplete;
+    DateTime StartDisembark;
+    DateTime DisembarkComplete;
+}

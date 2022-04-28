@@ -1,0 +1,4 @@
+﻿cell struct AircraftInfo_Cell
+{
+    AircraftInfo aircraftinfo;
+}

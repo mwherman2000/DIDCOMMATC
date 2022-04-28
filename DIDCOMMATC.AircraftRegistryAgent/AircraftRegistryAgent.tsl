@@ -1,0 +1,22 @@
+﻿
+struct GetAircraftRequest
+{
+    string aircraftId;
+}
+
+struct GetAircraftResponse
+{
+    AircraftInfo aircraft;
+}
+
+protocol GetAircraftEndpoint
+{   
+    Type: HTTP;
+    Request: GetAircraftRequest;
+    Response: GetAircraftResponse;
+}
+
+server AircraftRegistryAgent
+{
+    protocol GetAircraftEndpoint;
+}

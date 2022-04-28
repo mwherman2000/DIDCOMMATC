@@ -1,0 +1,6 @@
+﻿struct AirportInfo
+{
+	string AirportCode;
+	string AirportName;
+	long HttpPort;
+}

@@ -1,0 +1,46 @@
+﻿include "../DIDCOMMATC.FlightPlanAgent/FlightPlan.tsl";
+
+struct GetAirportRequest
+{
+    string airportCode;
+}
+struct GetAirportResponse
+{
+    AirportInfo airportInfo;
+}
+protocol GetAirportEndpoint
+{   
+    Type: HTTP;
+    Request: GetAirportRequest;
+    Response: GetAirportResponse;
+}
+
+struct GetFlightPlansRequest
+{
+    string airportCode;
+    DateTime startTime;
+    long duration;
+}
+struct GetFlightPlansResponse
+{
+    List<FlightPlan> flightplans;
+}
+protocol GetDepartingFlightsEndpoint
+{   
+    Type: HTTP;
+    Request: GetFlightPlansRequest;
+    Response: GetFlightPlansResponse;
+}
+protocol GetArrivingFlightsEndpoint
+{   
+    Type: HTTP;
+    Request: GetFlightPlansRequest;
+    Response: GetFlightPlansResponse;
+}
+
+server AirportATCAgent
+{
+    protocol GetAirportEndpoint;
+    protocol GetDepartingFlightsEndpoint;
+    protocol GetArrivingFlightsEndpoint;
+}

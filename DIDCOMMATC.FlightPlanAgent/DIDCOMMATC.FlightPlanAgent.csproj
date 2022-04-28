@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="FlightPlan.tsl" />
+    <None Remove="FlightPlanAgentEndpoint.tsl" />
+    <None Remove="FlightPlan_Cell.tsl" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CsvHelper" Version="27.2.1" />
+    <PackageReference Include="GraphEngine.Core" Version="2.0.11318" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DIDCOMMATC.Common\DIDCOMMATC.Common.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <TslCodegen Include="FlightPlan.tsl" />
+    <TslCodegen Include="FlightPlanAgentEndpoint.tsl" />
+    <TslCodegen Include="FlightPlan_Cell.tsl" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32414.318
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CsvReader1", "CsvReader1\CsvReader1.csproj", "{057EC3EA-7674-4AD9-A249-39AFD70DFA2F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DIDCOMMATC.Common", "DIDCOMMATC.Common\DIDCOMMATC.Common.csproj", "{7BFCCBA1-53DB-4428-BD39-06152D5EA941}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DIDCOMMATC.FlightPlanAgent", "DIDCOMMATC.FlightPlanAgent\DIDCOMMATC.FlightPlanAgent.csproj", "{2A312B39-D7E1-4E43-AB18-03133192FE93}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DIDCOMMATC.AirportATCAgent", "DIDCOMMATC.AirportATCAgent\DIDCOMMATC.AirportATCAgent.csproj", "{8B1B7477-584B-4C14-AB24-B57CD5E22AC6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DIDCOMMATC.AircraftRegistryAgent", "DIDCOMMATC.AircraftRegistryAgent\DIDCOMMATC.AircraftRegistryAgent.csproj", "{8B8A36BD-27D1-4D37-B7F2-EEDA291C3F42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DIDCOMMATC.AirportAgent", "DIDCOMMATC.AirportAgent\DIDCOMMATC.AirportAgent.csproj", "{D243C122-CA7C-4A00-82B7-67D5CDD6B59F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{057EC3EA-7674-4AD9-A249-39AFD70DFA2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{057EC3EA-7674-4AD9-A249-39AFD70DFA2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{057EC3EA-7674-4AD9-A249-39AFD70DFA2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{057EC3EA-7674-4AD9-A249-39AFD70DFA2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BFCCBA1-53DB-4428-BD39-06152D5EA941}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BFCCBA1-53DB-4428-BD39-06152D5EA941}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BFCCBA1-53DB-4428-BD39-06152D5EA941}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BFCCBA1-53DB-4428-BD39-06152D5EA941}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A312B39-D7E1-4E43-AB18-03133192FE93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A312B39-D7E1-4E43-AB18-03133192FE93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A312B39-D7E1-4E43-AB18-03133192FE93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A312B39-D7E1-4E43-AB18-03133192FE93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B1B7477-584B-4C14-AB24-B57CD5E22AC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B1B7477-584B-4C14-AB24-B57CD5E22AC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B1B7477-584B-4C14-AB24-B57CD5E22AC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B1B7477-584B-4C14-AB24-B57CD5E22AC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B8A36BD-27D1-4D37-B7F2-EEDA291C3F42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B8A36BD-27D1-4D37-B7F2-EEDA291C3F42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B8A36BD-27D1-4D37-B7F2-EEDA291C3F42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B8A36BD-27D1-4D37-B7F2-EEDA291C3F42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D243C122-CA7C-4A00-82B7-67D5CDD6B59F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D243C122-CA7C-4A00-82B7-67D5CDD6B59F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D243C122-CA7C-4A00-82B7-67D5CDD6B59F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D243C122-CA7C-4A00-82B7-67D5CDD6B59F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B3D21699-58D6-439C-8B39-61FF50484AFA}
+	EndGlobalSection
+EndGlobal

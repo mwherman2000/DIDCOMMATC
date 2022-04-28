@@ -1,0 +1,18 @@
+﻿include "../DIDCOMMATC.AirportATCAgent/AirportInfo.tsl";
+
+struct InitializeResponse
+{
+    long rc;
+}
+
+protocol Initialize
+{   
+    Type: HTTP;
+    Request: AirportInfo;
+    Response: InitializeResponse;
+}
+
+server AirportAgent
+{
+    protocol Initialize;
+}

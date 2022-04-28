@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="AirportAgentEndpoint.tsl" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="GraphEngine.Core" Version="2.0.11318" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <TslCodegen Include="AirportAgentEndpoint.tsl" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,6 @@
+﻿struct AircraftInfo
+{
+    string airline;
+    string aircraftId;
+    string makemodel;
+}

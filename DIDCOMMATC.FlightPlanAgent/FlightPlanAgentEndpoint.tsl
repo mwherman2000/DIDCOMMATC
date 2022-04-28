@@ -1,0 +1,22 @@
+﻿
+struct GetFlightPlanRequest
+{
+    string airportInfoId;
+}
+
+struct GetFlightPlanResponse
+{
+    FlightPlan airportInfo;
+}
+
+protocol GetFlightPlanEndpoint
+{   
+    Type: HTTP;
+    Request: GetFlightPlanRequest;
+    Response: GetFlightPlanResponse;
+}
+
+server FlightPlanAgent
+{
+    protocol GetFlightPlanEndpoint;
+}

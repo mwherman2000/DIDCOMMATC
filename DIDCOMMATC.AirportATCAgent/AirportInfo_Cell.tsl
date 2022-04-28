@@ -1,0 +1,4 @@
+﻿cell struct AirportInfo_Cell
+{
+    AirportInfo airportInfo;
+}
